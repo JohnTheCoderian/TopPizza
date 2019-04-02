@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://localhost:8080/eindTest/finalTest/index.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Welcome to Pizza Palace!</title>
+<link rel="stylesheet" type="text/css" href="./Welcome to Pizza Palace!_files/master.css">
+</head>
+
+<body cz-shortcut-listen="true">
+      <header>
+          <a href="http://localhost:8080/eindTest/finalTest/index.php" class="logo">Pizza Palace</a>
+          <nav class="headerRight">
+              <a href="http://localhost:8080/eindTest/finalTest/login.php">Login</a>
+              <button class="logout">log out</button>
+              <span class="basketbtn">pizza doos</span>
+          </nav>
+      </header>
+  <div class="pizzaContainer">
+      <h1 class="selectionHeader">Onze selectie aan top pizza's!</h1>
+    <div class="pizzaList">
+      <div class="pizzaCard" id="prdc1">
+              <div class="pizzaImage">
+                <img src="./Welcome to Pizza Palace!_files/margheritaPic.jpg" alt="margheritaPic.jpg">
+              </div>
+                <h2 class="pizzaNaam">Margherita</h2>
+                <p class="pizzaPrijs">€13</p>
+                <p class="pizzaBeschrijving"> tomaat, mozzarella, basilicum</p>
+              <button type="button" id="addToBasket">Voeg toe</button>
+        </div>
+      <div class="pizzaCard" id="prdc2">
+              <div class="pizzaImage">
+                <img src="./Welcome to Pizza Palace!_files/vierkazen.jpeg" alt="vierkazen.jpeg">
+              </div>
+                <h2 class="pizzaNaam">Quattro Formaggi</h2>
+                <p class="pizzaPrijs">€12</p>
+                <p class="pizzaBeschrijving">gorgonzola, mozzarella, pecorino en taleggio</p>
+              <button type="button" id="addToBasket">Voeg toe</button>
+        </div>
+      <div class="pizzaCard" id="prdc3">
+              <div class="pizzaImage">
+                <img src="./Welcome to Pizza Palace!_files/pizza-napoli.jpg" alt="pizza-napoli.jpg">
+              </div>
+                <h2 class="pizzaNaam">Napoli</h2>
+                <p class="pizzaPrijs">€11</p>
+                <p class="pizzaBeschrijving">tomaat, mozzarella, kappertjes en ansjovis</p>
+              <button type="button" id="addToBasket">Voeg toe</button>
+        </div>
+      <div class="pizzaCard" id="prdc4">
+              <div class="pizzaImage">
+                <img src="./Welcome to Pizza Palace!_files/pizza-tonno.jfif" alt="pizza-tonno.jfif">
+              </div>
+                <h2 class="pizzaNaam">Tonno</h2>
+                <p class="pizzaPrijs">€10</p>
+                <p class="pizzaBeschrijving">tomaat, mozzarella, tonijn</p>
+              <button type="button" id="addToBasket">Voeg toe</button>
+        </div>
+      <div class="pizzaCard" id="prdc5">
+              <div class="pizzaImage">
+                <img src="./Welcome to Pizza Palace!_files/pizza-pepperoni.jpg" alt="pizza-pepperoni.jpg">
+              </div>
+                <h2 class="pizzaNaam">Pepperoni</h2>
+                <p class="pizzaPrijs">€14</p>
+                <p class="pizzaBeschrijving">tomaat, mozzarella, paprika</p>
+              <button type="button" id="addToBasket">Voeg toe</button>
+        </div>
+      <div class="pizzaCard" id="prdc6">
+              <div class="pizzaImage">
+                <img src="./Welcome to Pizza Palace!_files/pizza-calzone.jpeg" alt="pizza-calzone.jpeg">
+              </div>
+                <h2 class="pizzaNaam">Calzone</h2>
+                <p class="pizzaPrijs">€9</p>
+                <p class="pizzaBeschrijving">tomaat, mozzarella, champignons en ham</p>
+              <button type="button" id="addToBasket">Voeg toe</button>
+        </div>
+          </div>
+  </div>
+
+  <div class="basketPanel">
+      <div class="headerCart">
+        <h2>Uw bestelling</h2>
+        <button class="cartClose">×</button>
+      </div>
+      <div class="cartList">
+        <ul class="cartLineItems">
+            <li class="cartItem">
+              <div class="cartContent">
+                <span class="amount">4x</span>
+                <span class="item">Calzone</span>
+                <span class="totalPerLine">€36</span>
+              </div>
+              <div class="buttons">
+                <button type="button" class="removeItemperLine" id="prdc6">-</button>
+              </div>
+            </li>
+            <li class="cartItem">
+              <div class="cartContent">
+                <span class="amount">1x</span>
+                <span class="item">Tonno</span>
+                <span class="totalPerLine">€10</span>
+              </div>
+              <div class="buttons">
+                <button type="button" class="removeItemperLine" id="prdc4">-</button>
+              </div>
+            </li></ul>
+      </div>
+      <div class="cartFooter">
+        <div class="cartTotal">
+          <span>Totaal:</span>
+          <span>€46</span>
+        </div>
+        <button type="button" id="clearBasket">Wis mandje</button>
+        <a href="http://localhost:8080/eindTest/finalTest/afrekenen.php" class="checkoutBtn">Afrekenen</a>
+      </div>
+  </div>
+  <script type="text/javascript" src="./Welcome to Pizza Palace!_files/cookiefr.js"></script>
+  <script type="text/javascript" src="./Welcome to Pizza Palace!_files/basket.js"></script>
+  <script type="text/javascript" src="./Welcome to Pizza Palace!_files/main.js"></script>
+
+
+</body></html>

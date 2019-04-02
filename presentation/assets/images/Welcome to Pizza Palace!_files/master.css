@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+body{
+  font-family: 'Oxygen', sans-serif;
+  background-color: #cccccc1c;
+}
+
+.selectionHeader{
+  text-align: center;
+  width: 100%;
+}
+.pizzaList{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:0 auto;
+  width: 100%;
+}
+
+.pizzaCard{
+  width: 360px;
+  height: auto;
+  text-align: center;
+  margin: 40px;
+  background-color: #ff8e8e24;
+  border-radius: 3%;
+  box-shadow: 3px 4px 20px 0px;
+}
+.pizzaCard img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+.register{
+  margin-left: 25%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+
+}
+input{
+  margin-bottom: 10px;
+  height: 20px;
+}
+input[type=submit]{
+  width: 95px;
+}
